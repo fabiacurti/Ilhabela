@@ -1,0 +1,189 @@
+html,body {
+   width: 1000px;
+   height: auto; 
+   background-color: #E0FFFF	;
+
+}
+ .paragrafoNegrito{
+    font-weight: bold ;
+    text-align: left;
+    padding-left: auto;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: auto;
+    margin-bottom: auto;
+ }
+ .ilhabelalogo{
+    width: 100px;;
+    height: auto;
+    position: relative;
+    border-bottom: 2px;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+ }
+ .textologo{ 
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+   padding-left: 20px;   
+   font-size: medium;
+ }
+ .quadro{
+   display: flex;
+   width: 600px;
+   height: 900px;
+   position: relative;
+   align-items: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto; 
+   margin-top: auto;
+   margin-bottom: auto;
+ }
+ .dimensionamento{
+    width: 600px;
+    height: 300px;
+    position: relative;
+    margin: 20px;
+ }
+ .div1{   
+   width: 300px;
+   height: 250px;
+   margin-left: 15px;
+   margin-right: 15px; 
+   margin-top: 15px;
+   margin-bottom: 15px;
+   display: flex;
+   text-align: center;
+   background-color: #B0E0E6;
+ }
+ .divcarrosel{
+   display: flex;
+   width: 600px;
+   align-items: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto; 
+   margin-top: auto;
+   margin-bottom: auto;
+   display: flex;
+   text-align: center;
+   background-color: transparent;
+ }
+ .formatacaoDT{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: large;
+ }
+
+.imagem{
+   height: 150px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto; 
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+.imagemBonete{
+   height: 250px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto; 
+   margin-top: auto;
+   margin-bottom: auto;
+}
+.button {
+   background-color: black; 
+   border-radius: 6px; 
+   padding: 15px; 
+   cursor: pointer; 
+   color: #fff;
+   border: none;
+   font-size: 16px;
+}
+ .rodaPe{
+   height: 75px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto; 
+   margin-top: auto;
+   margin-bottom: auto;
+   
+ }
+ .movimentoFadeIn{
+   width: auto;
+   height: auto;
+   margin-right: 50px;
+   background-image:url(imagens/castelhanos.jpg);
+   animation: mymove 7s infinite;
+ }
+ 
+ @keyframes mymove {
+   from {background-image:url(imagens/curral.jpg);
+         background-repeat: no-repeat;}
+   to {background-image:url(imagens/bonete.jpeg);
+       background-repeat: no-repeat;}
+ }
+ * {
+   margin: 0 auto;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+   background-color:#008080;
+}
+
+#menu-h ul {
+   max-width: 800px;
+   list-style: none;
+   padding: 0;
+}
+
+#menu-h ul li {
+   display: inline;
+}
+
+#menu-h ul li a {
+   color: #FFF;
+   padding: 20px;
+   display: inline-block;
+   text-decoration: none;
+   transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+   background-color: #B0E0E6;
+}
+
+#menu-h ul li:last-child a {
+   float: right;
+   background-color: #B0E0E6;
+}
+
+/* Carrosel */
+.carroselBonete{
+   width: 900px;
+   height: auto;
+   margin-right: 50px;
+   background-image:url(imagens/bonete.jpeg);
+   animation: mymove 10s infinite;
+ }
+ 
+ @keyframes mymove {
+   from {background-image:url(imagens/trilhaBonete.jpg);
+         background-repeat: no-repeat;}
+   to {background-image:url(imagens/percursoBonete.png);
+       background-repeat: no-repeat;}
+ }
+
