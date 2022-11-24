@@ -63,6 +63,7 @@ html,body {
  .divcarrosel{
    display: flex;
    width: 600px;
+   height: auto;
    align-items: center;
    justify-content: center;
    margin-left: auto;
