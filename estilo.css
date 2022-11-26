@@ -1,7 +1,7 @@
 html,body {
    width: 1000px;
    height: auto; 
-   background-color: #E0FFFF	;
+   background-color:gainsboro	;
 
 }
  .paragrafoNegrito{
@@ -56,6 +56,9 @@ html,body {
    margin-right: 15px; 
    margin-top: 15px;
    margin-bottom: 15px;
+   border-radius: 10px;
+   border-bottom: 10px;
+   border-radius: 10px 10px 10px 10px;
    display: flex;
    text-align: center;
    background-color: #B0E0E6;
@@ -232,14 +235,19 @@ fieldset
    display: none;
 }
 .slider label {
-   background-color: red;
-   bottom: 50px;
+   background-color: aqua;
+   font-variant-caps: all-petite-caps;
+   bottom: 100px;
    cursor: pointer;
+   padding: 20px;
    display: block;
    height: 10px;
    position: absolute;
-   border-radius: 60px;
-   width: 60px;
+   border-color: black;
+   border-style: groove;
+   border-image-width: 10px;
+   border-radius: 10px 10px 10px 10px;
+   width: 100px;
    z-index: 01;
 }
 
@@ -249,14 +257,14 @@ fieldset
 }
 
 .slider li:nth-child(2) label {
-   left: 40px;
+   left: 10px;
 }
 
 .slider li:nth-child(3) label {
-   left: 70px;
+   left: 10px;
 }
 .slider img {
-   opacity: 0;
+   opacity: 0.5;
    visibility: hidden;
 }
 
