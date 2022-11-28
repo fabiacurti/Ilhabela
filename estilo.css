@@ -43,6 +43,33 @@ html,body {
    margin-top: auto;
    margin-bottom: auto;
  }
+ .divContexto{
+   width:600px; 
+   height: auto;
+   margin-left: auto;
+   margin-top: auto;
+   padding-top: 50px;
+   padding-right: 30px;
+   padding-bottom: 50px;
+   padding-left: 80px;
+
+ }
+ .pContexto{
+   margin-left: auto;
+   margin-right: auto;
+   font-size: large;
+   font-family: cambria;
+   padding: 10px;
+   position:relative;
+   background-color: rgba(0, 0, 0, 0.667);
+   color: white;
+   align-items: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto; 
+   margin-top: auto;
+   margin-bottom: auto;
+ }
  .dimensionamento{
     width: 600px;
     height: 300px;
@@ -61,7 +88,7 @@ html,body {
    border-radius: 10px 10px 10px 10px;
    display: flex;
    text-align: center;
-   background-color:gray;
+   background-color:rgb(144, 144, 223);
  }
  .divcarrosel{
    display: flex;
@@ -87,6 +114,7 @@ html,body {
    display: flex;
    align-items: center;
    justify-content: center;
+   border-radius: 10px 10px 10px 10px;
    margin-left: auto;
    margin-right: auto; 
    margin-top: auto;
@@ -282,7 +310,7 @@ fieldset
    width: 900px;
    height: auto;
    margin-right: 50px;
-   background-image:url(imagens/bonete.jpeg);
+   background-image:url(imagens/bonetesol.png);
    animation: mymove 10s infinite;
  }
  
@@ -307,3 +335,20 @@ fieldset
        background-repeat: no-repeat;}
  }
 
+ .movimentoPaqueta{
+   width: auto;
+   height: auto;
+   margin-right: 50px;
+
+   background-image:url(imagens/paqueta.jpg);
+   animation: mymove 10s infinite;
+ }
+ 
+ @keyframes mymove {
+   from {background-image:url(imagens/paqueta1.jpg);
+         background-repeat: no-repeat;}
+   to {background-image:url(imagens/paqueta2.jpg);
+       background-repeat: no-repeat;}
+ }
+
+                    
