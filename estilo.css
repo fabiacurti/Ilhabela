@@ -65,9 +65,11 @@ html,body {
     margin-bottom: auto;
  }
  .ilhabelalogo{
-    width: 100px;;
+    width: 200px;;
     height: auto;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
     border-bottom: 2px;
     border-top: 2px;
     border-left: 2px;
