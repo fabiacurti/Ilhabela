@@ -32,6 +32,7 @@ html,body {
    float: center;
 
 }
+
 .fabia{
    
    justify-items: center;
@@ -49,6 +50,29 @@ html,body {
    margin-right: auto; 
    margin-top: auto;
    margin-bottom: 10px;
+
+}
+.banner{
+   width:700px;
+   position: absolute;
+   margin-top: 50px;
+   margin-left: 100px;
+   margin-right: 10px;
+   margin-bottom: 1px;
+   font-weight:100 ;
+   padding: 20px;
+   height: 150px;
+   text-align: justify;
+   border-radius: 10px 10px 10px 10px;
+   color: whitesmoke;
+   background-color: rgba(0, 0, 0, 0.37);   
+}
+.paragrafoBanner{
+   font-family:"Comic Sans MS";
+   width: auto;
+   height: auto;
+  
+   color: beige;
 
 }
  .paragrafoNegrito{
@@ -89,7 +113,7 @@ html,body {
    justify-content: center;
    margin-left: auto;
    margin-right: auto; 
-   margin-top: auto;
+   margin-top: 1px;
    margin-bottom: auto;
  }
  .divContexto{
@@ -137,7 +161,7 @@ html,body {
    border-radius: 10px 10px 10px 10px;
    display: flex;
    text-align: center;
-   background-color:rgb(144, 144, 223);
+   background-color:rgba(144, 144, 223, 0.336);
  }
  .divcarrosel{
    display: flex;
@@ -154,7 +178,7 @@ html,body {
    background-color: transparent;
  }
  .formatacaoDT{
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-family:"Comic Sans MS";
    font-size: large;
  }
 
@@ -180,19 +204,16 @@ html,body {
    margin-top: auto;
    margin-bottom: auto;
 }
-.button {  
-   display: none;
-  }
-
-.button:hover {
+.button{  
    background-color: black; 
    border-radius: 6px;
-    padding: 15px; 
+   padding: 15px; 
    cursor: pointer; 
    color: #fff;
    border: none;
    font-size: 16px;
-}
+  }
+
  .rodaPe{
    height: 75px;
    display: flex;
