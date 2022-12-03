@@ -1,9 +1,15 @@
 html,body {
    width: 1000px;
    height: auto; 
-   font-family:"Comic Sans MS";
+  
    background-color:#344D67;
 
+}
+* {
+   margin: 0 auto;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:"Comic Sans MS";
 }
 .sectionStyle{
    position: absolute;
@@ -176,21 +182,43 @@ html,body {
    text-align: center;
    background-color: transparent;
  }
+ .idform{
+  padding: 10px;
+  padding-bottom: 20px;
+  font-family:"Comic Sans MS" ;
+  border-radius: 10px 10px 10px 10px;
+   width: 550px;
+   height: 350px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto; 
+   margin-top: auto;
+   margin-bottom: 30px;
+ 
+}
+
  .formatacaoDT{
    font-family:"Comic Sans MS";
    font-size: large;
  }
+ .registroformulario{
+   padding: 10px;
+   justify-items: center;
+   font-family:"Comic Sans MS" ;
+ }
 .formulario{
    background-color: rgba(0, 0, 0, 0.308);
    font-family:"Comic Sans MS" ;
-   border-style: dotted;
+   border-style: double;
    border-radius: 10px 10px 10px 10px;
    width: 600px;
+   height: 450px;
    padding: 10px;
    margin-left: auto;
    margin-right: auto; 
    margin-top: auto;
-   margin-bottom: auto;
+
+
 }
 .imagem{
    height: 150px;
@@ -241,27 +269,8 @@ html,body {
    margin-bottom: auto;
    
  }
- .movimentoFadeIn{
-   width: auto;
-   height: auto;
-   margin-right: 50px;
-   background-image:url(imagens/castelhanos.jpg);
-   animation: mymove 7s infinite;
- }
+
  
- @keyframes mymove {
-   from {background-image:url(imagens/curral.jpg);
-         background-repeat: no-repeat;}
-   to {background-image:url(imagens/bonete.jpeg);
-       background-repeat: no-repeat;}
- }
- 
- * {
-   margin: 0 auto;
-   padding: 0;
-   box-sizing: border-box;
-   font-family: 'Open Sans', sans-serif;
-}
 
 #menu-h{
    background-color:black;
