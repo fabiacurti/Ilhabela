@@ -70,8 +70,7 @@ html,body {
 .paragrafoBanner{
    font-family:"Comic Sans MS";
    width: auto;
-   height: auto;
-  
+   height: auto;  
    color: beige;
 
 }
@@ -181,7 +180,18 @@ html,body {
    font-family:"Comic Sans MS";
    font-size: large;
  }
-
+.formulario{
+   background-color: rgba(0, 0, 0, 0.308);
+   font-family:"Comic Sans MS" ;
+   border-style: dotted;
+   border-radius: 10px 10px 10px 10px;
+   width: 600px;
+   padding: 10px;
+   margin-left: auto;
+   margin-right: auto; 
+   margin-top: auto;
+   margin-bottom: auto;
+}
 .imagem{
    height: 150px;
    display: flex;
@@ -192,6 +202,12 @@ html,body {
    margin-right: auto; 
    margin-top: auto;
    margin-bottom: auto;
+}
+.backgroundBanner{
+   width: 100px;
+   height: auto;
+   margin-left: 100px;
+   float: inline-end;
 }
 
 .imagemBonete{
@@ -384,6 +400,8 @@ fieldset
    width: 900px;
    height: auto;
    margin-right: 50px;
+   margin-top: 15px;
+   padding: 250px;
    background-image:url(imagens/bonetesol.png);
    animation: mymove 10s infinite;
  }
@@ -397,6 +415,8 @@ fieldset
  .carroselPaqueta{
    width: 900px;
    height: auto;
+   margin-top: 15px;
+   padding: 250px;
    margin-right: 50px;
    background-image:url(imagens/background.jpg);
    animation: mymove 10s infinite;
@@ -409,19 +429,39 @@ fieldset
        background-repeat: no-repeat;}
  }
 
- .movimentoPaqueta{
-   width: auto;
+ .carroselCurral{
+   width: 900px;
    height: auto;
-   margin-right: 50px;
-
-   background-image:url(imagens/paqueta.jpg);
+   border-radius: 10px,10px,10px,10px;;
+   margin-top: 15px;
+   padding: 250px;
+   margin-right: 0px;
+   background-image:url(imagens/curral.jpg);
    animation: mymove 10s infinite;
  }
  
  @keyframes mymove {
-   from {background-image:url(imagens/paqueta1.jpg);
+   from {background-image:url(imagens/curral1.jpg);
          background-repeat: no-repeat;}
-   to {background-image:url(imagens/paqueta2.jpg);
+   to {background-image:url(imagens/curral2.jpg);
+       background-repeat: no-repeat;}
+ }
+
+ .carroselCastelhanos{
+   width: 900px;
+   height: auto;
+   border-radius: 10px,10px,10px,10px;;
+   margin-top: 15px;
+   padding: 250px;
+   margin-right: 0px;
+   background-image:url(imagens/castelhanos.jpg);
+   animation: mymove 10s infinite;
+ }
+ 
+ @keyframes mymove {
+   from {background-image:url(imagens/castelhanos2.jpg);
+         background-repeat: no-repeat;}
+   to {background-image:url(imagens/castelhanos3.jpg);
        background-repeat: no-repeat;}
  }
 
